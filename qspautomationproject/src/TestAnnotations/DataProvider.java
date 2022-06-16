@@ -36,8 +36,8 @@ public class DataProvider {
 		data[2][0]="xyz123";
 		data[2][1]="$#4123";
 
-		data[3][0]="123";
-		data[3][1]="admin";
+		data[3][0]="admin";
+		data[3][1]="manger";
 
 		data[4][0]="123";
 		data[4][1]="admin";
