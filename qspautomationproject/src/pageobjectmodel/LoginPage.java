@@ -24,8 +24,6 @@ public class LoginPage {
 	}
 
 
-
-
 	//UTILIZASTION  right click-source-gettersandsetters-expand-select -getter only all
 	public WebElement getUsn() {
 		return usn;

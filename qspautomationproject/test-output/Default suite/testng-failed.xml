@@ -3,12 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="TestNGFlags.Flag6">
+      <class name="TestNG_Practise.NewTest">
         <methods>
-          <include name="login"/>
-          <include name="createUser"/>
+          <include name="Logtout"/>
+          <include name="Login"/>
+          <include name="title"/>
         </methods>
-      </class> <!-- TestNGFlags.Flag6 -->
+      </class> <!-- TestNG_Practise.NewTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

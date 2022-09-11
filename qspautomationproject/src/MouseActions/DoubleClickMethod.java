@@ -1,4 +1,4 @@
-package MouseActions;
+ package MouseActions;
 
 import java.util.concurrent.TimeUnit;
 

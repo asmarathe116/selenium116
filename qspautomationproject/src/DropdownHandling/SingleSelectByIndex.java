@@ -1,5 +1,7 @@
 package DropdownHandling;
 
+import java.util.List;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -12,13 +14,15 @@ public class SingleSelectByIndex {
 		System.setProperty("webdriver.chrome.driver","./drivers/chromedriver.exe");
 		WebDriver driver=new ChromeDriver();
 		driver.manage().window().maximize();
-		driver.get("file:///C:/Users/A/Desktop/HTML/singledrop.html");
-		
+		driver.get("https://demo.opencart.com/");
+
 		Thread.sleep(4000);
 		WebElement dropdownelement = 
-				driver.findElement(By.id("menu"));
+				driver.findElement(By.xpath("//span[text()=\"My Account\"]"));
 		Select sel = new Select(dropdownelement);
-		sel.selectByIndex(5);
+		sel.selectByVisibleText("Login");
+
+
 	}
 
 }

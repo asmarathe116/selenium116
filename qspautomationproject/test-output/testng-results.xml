@@ -1,133 +1,95 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+<testng-results ignored="0" total="9" passed="8" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-06-15T05:33:03 GMT-07:00" name="Default suite" finished-at="2022-06-15T05:33:24 GMT-07:00" duration-ms="20342">
+  <suite started-at="2022-09-03T07:20:28 GMT-07:00" name="DemoSuite" finished-at="2022-09-03T07:20:32 GMT-07:00" duration-ms="4283">
     <groups>
     </groups>
-    <test started-at="2022-06-15T05:33:03 GMT-07:00" name="Default test" finished-at="2022-06-15T05:33:24 GMT-07:00" duration-ms="20342">
-      <class name="TestAnnotations.DataProvider">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:TestAnnotations.DataProvider@cad498c]" started-at="2022-06-15T05:33:03 GMT-07:00" name="setUp" finished-at="2022-06-15T05:33:06 GMT-07:00" duration-ms="2431" status="PASS">
+    <test started-at="2022-09-03T07:20:28 GMT-07:00" name="LoginTest" finished-at="2022-09-03T07:20:30 GMT-07:00" duration-ms="2383">
+      <class name="TestNG_Practise.Test_Case">
+        <test-method signature="openBrowser()[pri:0, instance:TestNG_Practise.Test_Case@e7edb54]" started-at="2022-09-03T07:20:28 GMT-07:00" name="openBrowser" finished-at="2022-09-03T07:20:30 GMT-07:00" duration-ms="1712" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="loginToActiTime(java.lang.String,java.lang.String)[pri:0, instance:TestAnnotations.DataProvider@cad498c]" started-at="2022-06-15T05:33:06 GMT-07:00" name="loginToActiTime" data-provider="testActiTimeData" finished-at="2022-06-15T05:33:08 GMT-07:00" duration-ms="2199" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[admin1]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[manager123]]>
-              </value>
-            </param>
-          </params>
+        </test-method> <!-- openBrowser -->
+        <test-method signature="openUrl()[pri:0, instance:TestNG_Practise.Test_Case@e7edb54]" started-at="2022-09-03T07:20:30 GMT-07:00" name="openUrl" finished-at="2022-09-03T07:20:30 GMT-07:00" duration-ms="226" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- loginToActiTime -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestAnnotations.DataProvider@cad498c]" started-at="2022-06-15T05:33:08 GMT-07:00" name="tearDown" finished-at="2022-06-15T05:33:08 GMT-07:00" duration-ms="236" status="PASS">
+        </test-method> <!-- openUrl -->
+        <test-method signature="Login()[pri:0, instance:TestNG_Practise.Test_Case@e7edb54]" started-at="2022-09-03T07:20:30 GMT-07:00" name="Login" finished-at="2022-09-03T07:20:30 GMT-07:00" duration-ms="183" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:TestAnnotations.DataProvider@cad498c]" started-at="2022-06-15T05:33:08 GMT-07:00" name="setUp" finished-at="2022-06-15T05:33:10 GMT-07:00" duration-ms="1505" status="PASS">
+        </test-method> <!-- Login -->
+        <test-method signature="Logtout()[pri:0, instance:TestNG_Practise.Test_Case@e7edb54]" started-at="2022-09-03T07:20:30 GMT-07:00" name="Logtout" finished-at="2022-09-03T07:20:30 GMT-07:00" duration-ms="197" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="loginToActiTime(java.lang.String,java.lang.String)[pri:0, instance:TestAnnotations.DataProvider@cad498c]" started-at="2022-06-15T05:33:10 GMT-07:00" name="loginToActiTime" data-provider="testActiTimeData" finished-at="2022-06-15T05:33:12 GMT-07:00" duration-ms="2187" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[ad min]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[manager 123]]>
-              </value>
-            </param>
-          </params>
+        </test-method> <!-- Logtout -->
+      </class> <!-- TestNG_Practise.Test_Case -->
+    </test> <!-- LoginTest -->
+    <test started-at="2022-09-03T07:20:31 GMT-07:00" name="title verify" finished-at="2022-09-03T07:20:32 GMT-07:00" duration-ms="1840">
+      <class name="TestNG_Practise.NewTest">
+        <test-method signature="openBrowser()[pri:0, instance:TestNG_Practise.NewTest@4d465b11]" started-at="2022-09-03T07:20:31 GMT-07:00" name="openBrowser" finished-at="2022-09-03T07:20:31 GMT-07:00" duration-ms="769" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- loginToActiTime -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestAnnotations.DataProvider@cad498c]" started-at="2022-06-15T05:33:12 GMT-07:00" name="tearDown" finished-at="2022-06-15T05:33:12 GMT-07:00" duration-ms="180" status="PASS">
+        </test-method> <!-- openBrowser -->
+        <test-method signature="openUrl()[pri:0, instance:TestNG_Practise.NewTest@4d465b11]" started-at="2022-09-03T07:20:31 GMT-07:00" name="openUrl" finished-at="2022-09-03T07:20:31 GMT-07:00" duration-ms="207" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:TestAnnotations.DataProvider@cad498c]" started-at="2022-06-15T05:33:12 GMT-07:00" name="setUp" finished-at="2022-06-15T05:33:14 GMT-07:00" duration-ms="1442" status="PASS">
+        </test-method> <!-- openUrl -->
+        <test-method signature="Login()[pri:0, instance:TestNG_Practise.NewTest@4d465b11]" started-at="2022-09-03T07:20:31 GMT-07:00" name="Login" finished-at="2022-09-03T07:20:32 GMT-07:00" duration-ms="184" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="loginToActiTime(java.lang.String,java.lang.String)[pri:0, instance:TestAnnotations.DataProvider@cad498c]" started-at="2022-06-15T05:33:14 GMT-07:00" name="loginToActiTime" data-provider="testActiTimeData" finished-at="2022-06-15T05:33:16 GMT-07:00" duration-ms="2192" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[xyz123]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[$#4123]]>
-              </value>
-            </param>
-          </params>
+        </test-method> <!-- Login -->
+        <test-method signature="title()[pri:0, instance:TestNG_Practise.NewTest@4d465b11]" started-at="2022-09-03T07:20:32 GMT-07:00" name="title" finished-at="2022-09-03T07:20:32 GMT-07:00" duration-ms="474" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertTrue(Assert.java:45)
+at org.testng.Assert.assertTrue(Assert.java:55)
+at TestNG_Practise.NewTest.title(NewTest.java:53)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- loginToActiTime -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestAnnotations.DataProvider@cad498c]" started-at="2022-06-15T05:33:16 GMT-07:00" name="tearDown" finished-at="2022-06-15T05:33:16 GMT-07:00" duration-ms="239" status="PASS">
+        </test-method> <!-- title -->
+        <test-method signature="Logtout()[pri:0, instance:TestNG_Practise.NewTest@4d465b11]" started-at="2022-09-03T07:20:32 GMT-07:00" name="Logtout" finished-at="2022-09-03T07:20:32 GMT-07:00" duration-ms="194" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:TestAnnotations.DataProvider@cad498c]" started-at="2022-06-15T05:33:16 GMT-07:00" name="setUp" finished-at="2022-06-15T05:33:17 GMT-07:00" duration-ms="1345" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="loginToActiTime(java.lang.String,java.lang.String)[pri:0, instance:TestAnnotations.DataProvider@cad498c]" started-at="2022-06-15T05:33:17 GMT-07:00" name="loginToActiTime" data-provider="testActiTimeData" finished-at="2022-06-15T05:33:20 GMT-07:00" duration-ms="2187" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[admin]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[manager]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- loginToActiTime -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestAnnotations.DataProvider@cad498c]" started-at="2022-06-15T05:33:20 GMT-07:00" name="tearDown" finished-at="2022-06-15T05:33:20 GMT-07:00" duration-ms="251" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:TestAnnotations.DataProvider@cad498c]" started-at="2022-06-15T05:33:20 GMT-07:00" name="setUp" finished-at="2022-06-15T05:33:21 GMT-07:00" duration-ms="1480" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="loginToActiTime(java.lang.String,java.lang.String)[pri:0, instance:TestAnnotations.DataProvider@cad498c]" started-at="2022-06-15T05:33:21 GMT-07:00" name="loginToActiTime" data-provider="testActiTimeData" finished-at="2022-06-15T05:33:23 GMT-07:00" duration-ms="2170" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[123]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[admin]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- loginToActiTime -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestAnnotations.DataProvider@cad498c]" started-at="2022-06-15T05:33:23 GMT-07:00" name="tearDown" finished-at="2022-06-15T05:33:24 GMT-07:00" duration-ms="229" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- TestAnnotations.DataProvider -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        </test-method> <!-- Logtout -->
+      </class> <!-- TestNG_Practise.NewTest -->
+    </test> <!-- title verify -->
+  </suite> <!-- DemoSuite -->
 </testng-results>

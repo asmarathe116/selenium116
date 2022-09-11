@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="DemoSuite">
+	<test name="LoginTest">
+		<classes>
+			<class name="TestNG_Practise.Test_Case">
+				<methods>
+					<include name="openBrowser" />
+					<include name="openUrl" />
+					<include name="Login" />
+					<include name="Logtout" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+	<test name="title verify">
+		<classes>
+			<class name="TestNG_Practise.NewTest">
+				<methods>
+					<include name="openBrowser" />
+					<include name="openUrl" />
+					<include name="Login" />
+					<include name="title" />
+					<include name="Logtout" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+</suite> 
+ 

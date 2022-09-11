@@ -5,6 +5,7 @@ import org.testng.annotations.BeforeMethod;
 
 import java.time.Duration;
 
+import org.junit.Assert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -23,7 +24,7 @@ public class DataProvider {
 		driver.get("http://desktop-ddcequv/login.do");
 	}
 	@org.testng.annotations.DataProvider(name="testActiTimeData")
-	public Object[][] dataprovider()
+	public Object[][] dataprovider() throws InterruptedException
 	{
 		Object[][] data=new Object[5][2];
 
@@ -35,9 +36,11 @@ public class DataProvider {
 
 		data[2][0]="xyz123";
 		data[2][1]="$#4123";
-
+		
+		Thread.sleep(2000);
+      
 		data[3][0]="admin";
-		data[3][1]="manger";
+		data[3][1]="maager";
 
 		data[4][0]="123";
 		data[4][1]="admin";
